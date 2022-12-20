@@ -1,0 +1,39 @@
+.task-div{
+  background-color: #071e22;
+  color: white;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-text{
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color:#071e22;
+  border: #071e22;
+  font-size: 1.25rem;
+}
+
+.icons{
+  display: flex;
+  gap: 3rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.complete{
+  text-decoration: line-through;
+  background-color: #a8dadc;
+  color: #071e22;
+  opacity: 0.5;
+}
+
+.hide{
+  display: none;
+}
